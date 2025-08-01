@@ -1,0 +1,127 @@
+.recipe-card-container {
+  width: 50rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem;
+  margin-left: 2rem;
+  justify-content: flex-start;
+}
+
+.recipe-card-outer{
+  width: 23rem;
+  height: 18rem;
+  background: var(--sp-green);
+  border-radius: 12px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipe-card {
+  width: 21.5rem;
+  height: 14.8rem;
+  background: var(--sp-primary);
+  padding: 0.2rem;
+  border-radius: 8px;
+  margin: 0 auto;
+  overflow: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.recipe-title {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--sp-accent);
+  display: inline-block; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 95%;
+}
+
+.protein{
+  width: 15.5rem;
+  background-color: var(--sp-green);
+  border-radius: 5rem;
+  padding: 0.25rem;
+  padding-bottom: 0.35rem;
+  margin-right: 0.5rem;
+  color: var(--sp-primary);
+}
+
+.carbs{
+  width: 14rem;
+  background-color: var(--sp-warning);
+  border-radius: 5rem;
+  padding: 0.25rem;
+  padding-bottom: 0.35rem;
+  margin-right: 0.5rem;
+  color: var(--sp-primary);
+}
+
+.fats{
+  width: 13rem;
+  background-color: var(--sp-negative);
+  border-radius: 5rem;
+  padding: 0.25rem;
+  padding-bottom: 0.35rem;
+  margin-right: 0.5rem;
+  color: var(--sp-primary);
+}
+
+.nutrition {
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.3rem;
+  color: var(--sp-secondary);
+  width: 100%;
+  overflow: hidden;
+}
+
+.additional-nutrition {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 40%;
+  color: var(--sp-secondary);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.ingredients{
+    color: var(--sp-surface);
+}
+
+.instructions{
+    color: var(--sp-surface);
+}
+.instruction-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 1rem;
+}
+.more-btn {
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  text-align: right;
+}
+
+.btn{
+  height: 1.8rem;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: var(--sp-green);
+  color: var(--sp-primary);
+  border: none;
+  font-weight: 700;
+}

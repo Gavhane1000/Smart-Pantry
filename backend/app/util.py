@@ -2,8 +2,8 @@ import requests
 import os
 from app import constants
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyAgOpUeeYmHvy_6v1tSDnzKWQzx_clJFSo")
-GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + GEMINI_API_KEY
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyCVB_3oqftVY9WryHVf68E4p76wuyTgxSE")
+GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + GEMINI_API_KEY
 
 def ask_llm(prompt):
 	url = GEMINI_URL

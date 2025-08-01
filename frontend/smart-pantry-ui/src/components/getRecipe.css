@@ -1,0 +1,167 @@
+.get-recipe-section {
+  padding-bottom: 4rem;
+  padding-right: 3px;
+  padding-left: 3rem;
+  padding-top: 0.5rem;
+  background-color: var(--sp-surface);
+}
+.recipe-heading {
+  font-family: "Rock Salt", cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--sp-accent);
+  margin-right: 0.5rem;
+}
+.recipe-sub-heading {
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: var(--sp-text);
+}
+/* ---------------------------------Form---------------------- */
+.get-recipe-container{
+  display: flex;
+  justify-content: space-between;
+}
+.form-container {
+  min-height: 110%;
+  max-height: 47rem;
+  margin-top: 1rem;
+  margin-left: 0rem;
+  width: 40rem;
+  background-color: var(--sp-primary);
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 3px solid var(--sp-green);
+}
+.form {
+  padding: 1rem;
+  width: 94%;
+}
+.form-heading{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--sp-green);
+}
+.form-inner {
+  display: flex;
+  flex-direction: column;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-group > label {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--sp-surface);
+  padding: 0.2rem;
+  padding-bottom: 0.5rem;
+}
+.input {
+  padding: 0.5rem;
+  border: 1px solid var(--sp-surface);
+  border-radius: 5px;
+}
+select.input {
+  width: 100%;
+}
+.radio-group {
+  display: flex;
+  gap: 1rem;
+}
+.ml-1 {
+  font-size: 18px;
+  color: var(--sp-secondary);
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: var(--sp-green);
+  transform: scale(1.5);
+}
+.option:checked {
+  filter: hue-rotate(125deg); /* Experiment with this */
+}
+.input.textarea {
+  height: 2rem;
+  resize: none;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--sp-green) transparent;
+}
+.submit-btn {
+  margin-top: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--sp-green);
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: var(--sp-primary);
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+}
+
+.remove-btn {
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: var(--sp-negative);
+  cursor: pointer;
+}
+.error-text {
+  color: var(--sp-negative);
+  font-size: 0.875rem;
+  margin: 0%;
+}
+
+.grid-tag-container {
+  display: flex;
+  flex-wrap: wrap; /* ✅ allows wrapping */
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.tag-row {
+  width: calc(25% - 8px);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background-color: var(--sp-green);
+  padding: 0.3rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.5rem;
+}
+
+.ingredient-name {
+  padding-right: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.ingredient-qty-input {
+  border: 1px solid var(--sp-secondary);
+  font-size: 0.8rem;
+  border-radius: 4px;
+  width: 100%;
+  background-color: var(--sp-primary);
+  transition: border 0.2s ease;
+  outline: none;
+}
+
+.ingredient-qty-input:focus {
+  border: none;
+}
+
+/* ------------------------------------- */
+.chef-dish{
+  padding-right: 6rem;
+  min-height: 4rem;
+  max-height: 34rem;
+}

@@ -1,5 +1,120 @@
-.about{
-    min-height: 25rem;
-    max-height: 40rem;
-    background-color: var(--sp-secondary);
+.about {
+  padding-top: 2rem;
+  padding-left: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 25rem;
+  max-height: 30rem;
+  background-color: var(--sp-surface);
+}
+.pan-image {
+  /* min-height: 30rem;
+    min-width: 50rem; */
+  max-width: 45rem;
+  max-height: 65rem;
+}
+.info-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4rem;
+  font-family: "Rock Salt", cursive;
+  color: var(--sp-accent);
+}
+.info-sub-heading {
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: var(--sp-text);
+}
+.button {
+  padding-top: 1rem;
+}
+.recipe-btn {
+  border: none;
+  border-radius: 1rem;
+  height: 2.5rem;
+  width: 8rem;
+  background-color: var(--sp-green);
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: var(--sp-primary);
+}
+.recipe-btn:hover {
+  cursor: pointer;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+.steps {
+  padding-top: 3rem;
+  background-color: var(--sp-primary);
+}
+.heading-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stroke {
+  height: 1rem;
+  width: 24rem;
+}
+.allign-centre {
+  display: flex;
+  justify-content: center;
+  font-family: "Rock Salt", cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--sp-surface);
+  margin-right: 0.5rem; 
+}
+.card-container {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-div {
+  min-width: 75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+.card {
+  background-color: var(--sp-surface);
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding-top: 1rem;
+  width: 16rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  height: 21rem;
+}
+.card.up {
+  transform: translateY(-1rem);
+}
+.card.down {
+  transform: translateY(1rem);
+}
+.step-image {
+  padding-top: 1rem;
+  background-color: var(--sp-primary);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 1rem;
+}
+.step-heading{
+    margin: 0%;
+    padding: 5px;
+    font-size: 1.3rem;
+    color: var(--sp-accent);
+    font-weight: 500;
+}
+.step-sub-heading{
+    margin: 0%;
+    padding: 5px;
+    font-size: 1rem;
+    color: var(--sp-primary);
+    font-weight: 200;
 }

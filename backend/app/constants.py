@@ -10,7 +10,7 @@ Given the following:
 - I have basic ingredients like oil, spices, salt: {basic_ingredients}
 - Recipe for: {people} of people
  
-Suggest up to 5 suitable recipes. Use only the provided ingredients and follow dietary restrictions.REMEMBER: Give more importance to notes given by user.
+Suggest up to 4 suitable recipes. Use only the provided ingredients and follow dietary restrictions.REMEMBER: Give more importance to notes given by user.
  
 Respond ONLY in this exact JSON format. Respond in raw JSON, NO escape sequence characters, quotes, or triple quotes. Do not wrap the json in string.
 [

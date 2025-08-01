@@ -6,6 +6,9 @@
   --sp-text: #B55233;
   --sp-accent: #FF9E4F;
   --sp-white-black: #FFFFFF;
+  --sp-green: #507f00;
+  --sp-negative: #e53935;
+  --sp-warning: #e6be0e;
 }
 
 .dark{
@@ -16,6 +19,9 @@
   --sp-text: #B5A89F;
   --sp-accent: #FFB347;
   --sp-white-black: #000000;
+  --sp-green: #507f00;
+  --sp-negative: #e53935;
+  --sp-warning: #e6be0e;
 }
 
 body, html, .light, .dark {
@@ -33,4 +39,8 @@ body, html, .light, .dark {
 .dark {
   background-color: #121212;
   color: #e0e0e0;
+}
+
+*{
+  scrollbar-width: none;
 }
